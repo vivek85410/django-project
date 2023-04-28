@@ -21,9 +21,9 @@ admin.site.site_title = "VIVEK ice cream Admin Portal"
 admin.site.index_title = "welcome to VIVEK ice creams"
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",views.index,name = "home"),
-    path("About",views.About,name="About us"),
-    path("services",views.services,name ="services"),
-    path("contact",views.contact,name="contact")
+    path('',views.index,name = 'home'),
+    path('About',views.About,name='About us'),
+    path('services',views.services,name ='services'),
+    path('details',views.details,name='details')
     
 ]
